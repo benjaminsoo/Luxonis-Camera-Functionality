@@ -1,4 +1,38 @@
 # Luxonis Camera Functionality Report
+The luxonis camera is able to perform inference on a large variety of neural networks & AI models. By changing model format to .blob, on-camera inference and custom solutions can be made for many models.
+
+## Anomaly Detection ([**here**](https://github.com/luxonis/depthai-experiments/tree/master/gen2-gaze-estimation#gen2-gaze-estimation))
+
+![Anomaly Detection GIF](https://user-images.githubusercontent.com/60359299/199052377-aaf26332-93c2-4710-b188-704de6afcd22.gif)
+
+
+## Image Quality Detection ([**here**](https://github.com/luxonis/depthai-experiments/tree/master/gen2-gaze-estimation#gen2-gaze-estimation))
+
+![demo-gif](https://i.imgur.com/LcKM0tK.gif)
+
+## Face Mask Detection ([here](https://github.com/luxonis/depthai-experiments/tree/master/gen2-coronamask))
+
+[![COVID-19 mask-no-mask megaAI](https://user-images.githubusercontent.com/5244214/112673778-6a3a9f80-8e65-11eb-9b7b-e352beffe67a.gif)](https://youtu.be/c4KEFG2eR3M "COVID-19 mask detection")
+
+## Depth-Driven Focus ([here](https://github.com/luxonis/depthai-experiments/tree/master/gen2-depth-driven-focus#depth-driven-focus))
+
+![Depth driven focus](https://user-images.githubusercontent.com/18037362/144228694-68344fce-8932-4c23-b2f0-601be59184b6.gif)
+
+## Crowd Counting ([here](https://github.com/luxonis/depthai-experiments/tree/master/gen2-crowdcounting#gen2-crowd-counting-with-density-maps-on-depthai))
+
+![Image example](https://raw.githubusercontent.com/luxonis/depthai-experiments/master/gen2-crowdcounting/imgs/example.gif)
+
+## Multi-camera spatial-detection-fusion ([here](./gen2-multiple-devices/spatial-detection-fusion))
+
+![demo](https://github.com/luxonis/depthai-experiments/blob/master/gen2-multiple-devices/spatial-detection-fusion/img/demo.gif?raw=true)
+
+## Running EfficientDet Object Detector On-Camera ([here](https://github.com/luxonis/depthai-experiments/tree/master/gen2-efficientDet))
+
+[![Watch the demo](https://user-images.githubusercontent.com/18037362/117892266-4c5bb980-b2b0-11eb-9c0c-68f5da6c2759.gif)](https://www.youtube.com/watch?v=UHXWj9TNGrM)
+
+## Running EfficientNet Image Classifier On-Camera ([here]([url](https://github.com/luxonis/depthai-experiments/tree/master/gen2-efficientnet-classification#efficientnet-b0)))
+
+![result](https://user-images.githubusercontent.com/67831664/119170640-2b9a1d80-ba81-11eb-8a3f-a3837af38a73.jpg)
 
 
 ## Gaze Estimation ([**here**](https://github.com/luxonis/depthai-experiments/tree/master/gen2-gaze-estimation#gen2-gaze-estimation))
@@ -17,9 +51,7 @@
 
 ![Demo](https://user-images.githubusercontent.com/18037362/146296930-9e7071f5-33b9-45f9-af21-cace7ffffc0f.gif)
 
-## Multi-camera spatial-detection-fusion ([here](./gen2-multiple-devices/spatial-detection-fusion))
 
-![demo](https://github.com/luxonis/depthai-experiments/blob/master/gen2-multiple-devices/spatial-detection-fusion/img/demo.gif?raw=true)
 
 ## Stereo Depth from Camera and From Host ([here](https://github.com/luxonis/depthai-experiments/tree/master/gen2-camera-demo#gen2-camera-demo))
 
@@ -57,13 +89,8 @@ timestamp,label,left,top,right,bottom,raw_frame,overlay_frame,cropped_frame
 16125187251492,person,74,38,300,297,data/raw/16125187251492.jpg,data/person/16125187251492_overlay.jpg,data/person/16125187251492_cropped.jpg
 ```
 
-## Face Mask Detection ([here](https://github.com/luxonis/depthai-experiments/tree/master/gen2-coronamask))
 
-[![COVID-19 mask-no-mask megaAI](https://user-images.githubusercontent.com/5244214/112673778-6a3a9f80-8e65-11eb-9b7b-e352beffe67a.gif)](https://youtu.be/c4KEFG2eR3M "COVID-19 mask detection")
 
-## Crowd Counting ([here](https://github.com/luxonis/depthai-experiments/tree/master/gen2-crowdcounting#gen2-crowd-counting-with-density-maps-on-depthai))
-
-![Image example](https://raw.githubusercontent.com/luxonis/depthai-experiments/master/gen2-crowdcounting/imgs/example.gif)
 
 ## Cumulative Object Counting ([here](https://github.com/luxonis/depthai-experiments/tree/master/gen2-cumulative-object-counting#cumulative-object-counting))
 
@@ -91,9 +118,7 @@ timestamp,label,left,top,right,bottom,raw_frame,overlay_frame,cropped_frame
 
 ![Multi-class Semantic Segmentation](https://raw.githubusercontent.com/luxonis/depthai-experiments/master/gen2-deeplabv3_multiclass/imgs/example.gif)
 
-## Depth-Driven Focus ([here](https://github.com/luxonis/depthai-experiments/tree/master/gen2-depth-driven-focus#depth-driven-focus))
 
-![Depth driven focus](https://user-images.githubusercontent.com/18037362/144228694-68344fce-8932-4c23-b2f0-601be59184b6.gif)
 
 ## Monocular Depth Estimation - Neural Network Based ([here](https://github.com/luxonis/depthai-experiments/tree/master/gen2-depth-mbnv2))
 
@@ -103,13 +128,6 @@ timestamp,label,left,top,right,bottom,raw_frame,overlay_frame,cropped_frame
 
 ![edit_bb](https://user-images.githubusercontent.com/18037362/141347853-00a1c5ac-d473-4cf9-a9f5-bdf6271e8ebe.png)
 
-## Running EfficientDet Object Detector On-Camera ([here](https://github.com/luxonis/depthai-experiments/tree/master/gen2-efficientDet))
-
-[![Watch the demo](https://user-images.githubusercontent.com/18037362/117892266-4c5bb980-b2b0-11eb-9c0c-68f5da6c2759.gif)](https://www.youtube.com/watch?v=UHXWj9TNGrM)
-
-## Running EfficientNet Image Classifier On-Camera ([here]([url](https://github.com/luxonis/depthai-experiments/tree/master/gen2-efficientnet-classification#efficientnet-b0)))
-
-![result](https://user-images.githubusercontent.com/67831664/119170640-2b9a1d80-ba81-11eb-8a3f-a3837af38a73.jpg)
 
 ## Facial Expression (Emotion) Recognition On-Camera ([here](https://github.com/luxonis/depthai-experiments/tree/master/gen2-emotion-recognition#gen2-emotion-recognition))
 
